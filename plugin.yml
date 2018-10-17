@@ -1,0 +1,9 @@
+name: TestPlugin
+main: xyz.set3.testplugin.TestPlugin
+version: 1.0.0
+author: Set3
+depend: [RPGCmdManager]
+commands:
+  poke:
+    description: Poke a player!
+    usage: /<command> <username>
